@@ -321,7 +321,34 @@ background:url(images/icons/white/logout.png);
 background-size: auto 40%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
+}  
+
+/*ที่เราเพิ่ม*/
+.cart2-icon{
+background:url(images/icons/white/cart.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+}  
+.maps-icon{
+background:url(images/icons/white/map.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+} 
+.newspaper-icon{
+background:url(images/icons/white/newspaper.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+} 
+.phone-icon{
+background:url(images/icons/white/phone.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
 }
+
 /*===============================================*/
 /* 5. TOP NAVIGATION BAR AND FOOTER TOOLBAR */
 /*===============================================*/
