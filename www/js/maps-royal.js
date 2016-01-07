@@ -15,7 +15,8 @@ function onDeviceReady() {
 
 function onOffline() {
     alert("Must be connected to the Internet");
-    var mapObj = document.getElementById("map-canvas");
+   var mapObj = document.getElementById("map-canvas");
+    //var mapObj = document.getElementByClassName("map-canvas");
     mapObj.innerHTML = "please connect to the Internet";
 
 }
@@ -36,6 +37,7 @@ function initialize() {
     };
 
     var mapObj = document.getElementById("map-canvas");
+    //var mapObj = document.getElementByClassName("map-canvas");
     map = new google.maps.Map(mapObj, mapOptions);
 
 
